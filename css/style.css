@@ -2065,7 +2065,7 @@ html .ui-button.ui-state-disabled:active {
     background: #fff;
   }
   .how__tabs-2 {
-    margin-top: 9px;
+    margin-top: 23px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 158px 100%;

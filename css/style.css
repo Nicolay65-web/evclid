@@ -1993,6 +1993,120 @@ html .ui-button.ui-state-disabled:active {
     flex-direction: column;
   }
 }
+@media (max-width: 425px) {
+  .header {
+    max-width: 425px;
+  }
+  .header__conteiner {
+    margin: 0 25px;
+    max-width: 375px;
+    height: 69px;
+  }
+  .hero__conteiner {
+    margin: 0 25px;
+    padding: 69px 0 0 0;
+    min-height: 190px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .hero__text {
+    padding: 60px 0 0 0;
+    width: 375px;
+    z-index: 2;
+  }
+  .hero__slide1 {
+    max-width: 375px;
+    min-height: 308px;
+    background-size: cover;
+    background-image: url(../img/low-balconies-320.jpg);
+  }
+  .hero__slide2 {
+    max-width: 375px;
+    min-height: 308px;
+    background-size: cover;
+    background-image: url(../img/slide2-320.jpg);
+  }
+  .hero__slide3 {
+    max-width: 375px;
+    min-height: 308px;
+    background-size: cover;
+    background-image: url(../img/slide3-320.jpg);
+  }
+  .hero__heading {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .hero__paragraph {
+    margin: 7px 22px 43px 22px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .hero__link {
+    margin-top: 6px;
+    margin-left: 64px;
+    padding: 11.5px 27.5px;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+  }
+  .about__conteiner {
+    margin: 40px 25px 0 25px;
+  }
+  .how__conteiner {
+    margin: 40px 25px 14px 25px;
+  }
+  .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    margin-right: 38px;
+    padding: 0;
+    background: #fff;
+  }
+  .how__tabs-2 {
+    margin-top: 9px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 158px 100%;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-gap: 2% 2%
+  }
+  .how__tabs-left {
+    order: 2;
+  }
+  .how__tabs-right {
+    order: 1;
+    max-width: none;
+    min-height: 158px;
+    margin-left: -3px;
+  }
+  .faq__conteiner {
+    margin: 40px 25px 0 25px;
+  }
+  .faq__paragraph {
+    width: 243px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .faq__img, .faq__img3, .faq__img5 {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+  }
+  .ui-accordion .ui-accordion-content {
+    padding: 0 2px;
+    border: 0;
+    font-size: 14px;
+  }
+  .footer__conteiner {
+    margin: 0;
+    padding: 40px 25px;
+  }
+}
 @media (max-width: 375px) {
   .header {
     max-width: 375px;
